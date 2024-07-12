@@ -73,23 +73,23 @@ La aplicación expone las siguientes endpoints para las operaciones CRUD:
 
 - **Crear**:
     ```http
-    POST /api/entidades
+    POST /product
     ```
 - **Leer Todos**:
     ```http
-    GET /api/entidades
+    GET /product
     ```
 - **Leer Uno**:
     ```http
-    GET /api/entidades/{id}
+    GET /product/{id}
     ```
 - **Actualizar**:
     ```http
-    PUT /api/entidades/{id}
+    PUT /product/{id}
     ```
 - **Eliminar**:
     ```http
-    DELETE /api/entidades/{id}
+    DELETE /product/{id}
     ```
 
 
