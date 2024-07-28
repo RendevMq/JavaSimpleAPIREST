@@ -19,10 +19,9 @@ import com.rensystem.apirest.apirest.Entities.Product;
 
 //JPA trae todas las herramientas para poder conectarme a una base de datos
 
-//direcciones, urls para que las personas puedan consumir la informacion
 @RestController
 @RequestMapping("/product")
-//Con esas 2 lineas ya tenemos disponible /productos
+//Con esas 2 anotaciones ya tenemos disponible /productos
 
 public class ProductController {
 
